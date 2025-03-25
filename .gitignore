@@ -174,5 +174,5 @@ cython_debug/
 .pypirc
 
 # data files
-.csv
-.txt
+*.csv
+*.txt
