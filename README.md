@@ -7,12 +7,12 @@
 
 ## Introduction
 ### Subject
-|주제|서울시내에서 아이를 키우기 가장 좋은 자치구는 어디일까?|
+|주제|서울시에서 아이를 키우기 가장 좋은 자치구는 어디일까?|
 |---|-------------------------------|
-|:배경:|(주제 선정 배경)|
+|배경|서울에서 아이 키우기 좋은 자치구를 다룬 기사마다 1위가 다르게 선정되는 이유는 평가 기준이 제각각이기 때문입니다. 어떤 곳은 보육시설을, 어떤 곳은 교육 환경이나 주거 여건을 중점적으로 평가합니다. 이에 우리는 단순한 주관적 평가가 아닌, 크게 교육 인프라, 안전성, 공공시설 접근성 3가지 요소를 종합적으로 고려한 객관적인 평가 지표를 만들고, 데이터를 기반으로 실질적으로 가장 육아 친화적인 자치구를 선정하고자 본 프로젝트를 시작했습니다.|
 
 ### Technicals
-|:분류:|:기술:|
+|분류|기술|
 |----|---------------------------|
 |개발환경|![linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black) ![ubuntu](https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white)|
 |언어|![python](https://img.shields.io/badge/Python-14354C?style=for-the-badge&logo=python&logoColor=white) ![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white) ![Matplotlib](https://img.shields.io/badge/Matplotlib-%23ffffff.svg?style=for-the-badge&logo=Matplotlib&logoColor=black)|
@@ -20,12 +20,13 @@
 |협업툴|![confluence](https://img.shields.io/badge/confluence-%23172BF4.svg?style=for-the-badge&logo=confluence&logoColor=white) ![jira](https://img.shields.io/badge/Jira-0052CC?style=for-the-badge&logo=Jira&logoColor=white) ![slack](https://img.shields.io/badge/Slack-4A154B?style=for-the-badge&logo=slack&logoColor=white) ![github](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)|
 
 ## Responsibility
-||:이름:|:역할:|
+||이름|역할|
 |--|---|---------------------------------|
-|틴방|김채연||
+|팀장|김채연|DB설계, 주소 데이터 수집, 공원 데이터 수집 및 시각화, 발표|
+|팀원|이건우|의료시설 데이터 수집 및 시각화, 발표|
 |팀원|이동훈|교육분야 데이터 수집 및 시각화, 서비스 코드 작성, 발표|
-|팀원|서동진||
-|팀원|서건우||
+|팀원|서동진|안전분야 데이터 수집 및 시각화, 발표|
+
 
 ## Design
 
