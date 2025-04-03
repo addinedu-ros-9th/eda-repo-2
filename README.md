@@ -14,10 +14,10 @@
 ### Technicals
 |:분류:|:기술:|
 |----|---------------------------|
-|개발환경|리눅스, 우분투|
+|개발환경|![linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black), [ubuntu](https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white)|
 |언어|파이썬, 판다스|
 |데이터베이스|MySQL|
-|협업툴|Confluence, Jira, Slack, GitHub|
+|협업툴|Confluence, Jira, [slack](https://img.shields.io/badge/Slack-4A154B?style=for-the-badge&logo=slack&logoColor=white), [github](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)|
 
 ## Responsibility
 ||:이름:|:역할:|
