@@ -15,7 +15,7 @@
 |---|------------------------------|
 |**배경**|서울에서 아이 키우기 좋은 자치구를 다룬 기사마다 1위가 다르게 선정되는 이유는 평가 기준이 제각각이기 때문입니다. 어떤 곳은 보육시설을, 어떤 곳은 교육 환경이나 주거 여건을 중점적으로 평가합니다. 이에 우리는 단순한 주관적 평가가 아닌, 크게 교육 인프라, 안전성, 공공시설 접근성 3가지 요소 종합적으로 고려한 객관적인 평가 지표를 만들고, 데이터를 기반으로 실질적으로 가장 육아 친화적인 자치구를 선정하고자 본 프로젝트를 시작했습니다.|
 
-### 1.1 Technicals
+### 1.1 Technicals :computer:
 |**분류**|**기술**|
 |----|---------------------------|
 |**개발환경**|![linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black) ![ubuntu](https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white)|
@@ -23,7 +23,7 @@
 |**데이터베이스**|![mysql](https://img.shields.io/badge/MySQL-00000F?style=for-the-badge&logo=mysql&logoColor=white) ![aws](https://img.shields.io/badge/Amazon_AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white)|
 |**협업툴**|![confluence](https://img.shields.io/badge/confluence-%23172BF4.svg?style=for-the-badge&logo=confluence&logoColor=white) ![jira](https://img.shields.io/badge/Jira-0052CC?style=for-the-badge&logo=Jira&logoColor=white) ![slack](https://img.shields.io/badge/Slack-4A154B?style=for-the-badge&logo=slack&logoColor=white) ![github](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)|
 
-## 2. Responsibility
+## 2. Responsibility :woman: :man: :man: :man:
 ||**이름**|**역할**|
 |--|---|---------------------------------|
 |팀장|**김채연**|DB설계, 주소 데이터 수집, 공원 데이터 수집 및 시각화, 발표|
@@ -34,7 +34,7 @@
 
 ## 3. Design
 
-### 3.1 Detailed Plan
+### 3.1 Detailed Plan :clipboard:
 1. 평가 지표 기준 정하기 &rarr; 교육, 안전, 공공시설
 2. 교육 &rarr; 학교, 학원 데이터 + 진학률 상관관계 분석
 3. 안전 &rarr; 범죄, 사고, 유흥시설 분석
@@ -42,7 +42,7 @@
 5. 의료 &rarr; 생활인구 대비 소아과 비율 분석
 6. 주거비 &rarr; 주거지 유형 별 가격대 분석
 
-### 3.2 User Requirements
+### 3.2 User Requirements :question:
 |**No.**|**요구사항**|**중요도**|
 |----|----------------------------------------------|--|
 |**UR1**|어느 자치구가 안전한 자치구인지 분석해 판별할 수 있어야한다.||
@@ -63,7 +63,7 @@
 
 ## 4. Lay Out
 
-### 4.1 System Requirements
+### 4.1 System Requirements :exclamation:
 |**No.**|**기능이름**|**요구 데이터**|**수집 가능 여부**|**테이블명**|   |
 |----|--------|----------|--------|--------|----|
 |**SR_01**|교육 평가 지표|학교 데이터|   |school||
@@ -77,7 +77,7 @@
 |||소아과 데이터|   |hospital||
 |SR_04|주거비 평가 지표|주거비 데이터|   |real_estate||
 
-### 4.2 ER Diagram
+### 4.2 ER Diagram 
 >![Image](https://github.com/user-attachments/assets/fc336828-b3b1-4fc5-81cb-1cfef415093c)
 
 #### (1) 주소 테이블
@@ -104,7 +104,7 @@
 
 ## 5. Exploratory Data Analysis (EDA)
 
-### 5.1 교육
+### 5.1 교육 :school:
 #### (1) 자치구별 학생 수 대비 학교 수
 > ![Image](https://github.com/user-attachments/assets/2b6efcea-dd46-41fc-9e97-680b1509da10)
 > ![Image](https://github.com/user-attachments/assets/d1a6d542-ef22-4d47-a815-d7fd947b940b)
@@ -117,7 +117,7 @@
 > ![Image](https://github.com/user-attachments/assets/f5753f3e-7435-4904-ba4c-e5f293731441)
 
 
-### 5.2 안전
+### 5.2 안전 :cop:
 #### (1) 자치구별 면적 대비 범죄 발생 건수
 > ![Image](https://github.com/user-attachments/assets/490b8755-16c0-479b-9c06-5ebcfd06be14)
 
@@ -131,7 +131,7 @@
 > ![Image](https://github.com/user-attachments/assets/46f464ff-e6b3-45bd-9698-f3011983a035)
 
 
-### 5.3 공공시설
+### 5.3 공공시설 :running:
 #### (1) 총 인구 대비 의료기관 수
 > ![Image](https://github.com/user-attachments/assets/65d23250-3e8a-40c9-acb5-56367b3629e8)
 
@@ -158,21 +158,21 @@
 > ![Image](https://github.com/user-attachments/assets/350ea63b-d560-4d52-8237-8048618c156e)
 
 
-### 5.4 종합 분석 및 시각화
+### 5.4 종합 분석 및 시각화 :chart_with_upwards_trend:
 #### (1) 종합 지표 자치구 순위
 > ![Image](https://github.com/user-attachments/assets/d4a1f11d-4d6a-44ae-b911-831548e7d0f7)
 
-### 5.5 서비스위한 동 단위로의 범위 축소
+### 5.5 서비스위한 동 단위로의 범위 축소 
 #### (1) 성동구에서 면적 대비 월세가 가장 저렴한 법정동
 > ![Image](https://github.com/user-attachments/assets/b92d9724-6052-43cb-9f5c-ccc64f52fc09)
 
 ## 6. Service
 > ![Image](https://github.com/user-attachments/assets/98654665-c981-446f-81de-ae9c8fe76ac8)
 
-### 6.1 User Flow Chart
+### 6.1 User Flow Chart 
 >![Image](https://github.com/user-attachments/assets/8f8698d7-27dd-4bdf-b4e4-769421f2eba4)
 
-### 6.2 서비스 구동
+### 6.2 서비스 구동 :information_desk_person:
 
 
 
