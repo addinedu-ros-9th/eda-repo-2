@@ -114,6 +114,7 @@
 > ![Image](https://github.com/user-attachments/assets/d2ee94e6-0166-4610-b080-9141ceae46b1)
 
 #### (3) 교육 지표 자치구 순위 :trophy::one::two::three:
+* **금천구, 강서구, 영등포구** 순으로 학생 수 대비 학교와 입시학원의 수가 많았다.
 > ![Image](https://github.com/user-attachments/assets/f5753f3e-7435-4904-ba4c-e5f293731441)
 
 
@@ -128,6 +129,7 @@
 > ![Image](https://github.com/user-attachments/assets/5f227a39-bdba-4c9c-8b18-e3546c6cd010)
 
 #### (4) 안전 지표 자치구 순위 :trophy::one::two::three:
+* **도봉구, 성동구, 서대문구** 순으로 면적 대비 범죄 건수, 유흥시설 수 그리고 생활인구 면적 대비 교통 사고 건수가 낮았다.
 > ![Image](https://github.com/user-attachments/assets/46f464ff-e6b3-45bd-9698-f3011983a035)
 
 
@@ -139,6 +141,7 @@
 > ![Image](https://github.com/user-attachments/assets/8b843721-d612-46a4-ae6f-60af957f5b89)
 
 #### (3) 병원 밀집도 대비 소아과 밀집도 :pill:
+* **성동구**의 소아과 밀집도가 높은 것으로 나타났다.
 > ![Image](https://github.com/user-attachments/assets/e765d187-1364-4c2d-b1ce-c2fb50b9d0f4)
 
 #### (4) 생활인구 대비 도서관 수 :books:
@@ -152,17 +155,24 @@
 > ![Image](https://github.com/user-attachments/assets/1b6af1c3-0509-4ed4-8a25-8f6e8eccab84)
 
 #### (7) 전체 면적 대비 1인당 공원 면적 경향성과 오차 :leaves:
+* **종로, 강북, 도봉, 금천, 중구**는 전체 면적 대비 한사람이 사용할 수 있는 공원의 면적이 **넓은** 것으로 나타났다.
+* **은평, 노원, 관악, 강남, 송파**는 전체 면적 대비 한사람이 사용할 수 있는 공원의 면적이 **좁은** 것으로 나타났다.
 > ![Image](https://github.com/user-attachments/assets/5a852092-1e3f-4b4a-8b52-b956f60157c7)
 
 #### (8) 공공시설 지표 자치구 순위 :trophy::one::two::three:
+* **중구, 서초구, 영등포구** 순으로 생활인구 대비 도서관 수가 많고, 공원 면적이 넓었으며, 유아 수 대비 소아과가 많은 것으로 나타났다.
 > ![Image](https://github.com/user-attachments/assets/350ea63b-d560-4d52-8237-8048618c156e)
 
 
 ### 5.4 종합 분석 및 시각화 :chart_with_upwards_trend:
 #### (1) 종합 지표 자치구 순위 :trophy::one::two::three:
+* 뉴스 기사에서 나온 것처럼 성동구가 1위는 아니었지만 우리의 평가 지표로 평가한 결과 3위로 나타났다.
+* 기사에서는 6개(복지, 보육, 안전, 의료, 문화 여가, 환경) 영역의 평가 지표와 설문 조사 바탕의 정성 지표를 기반으로 나온 결과이고, 우리는 3개(교육, 안전, 공공시설) 영역의 평가 지표를 기반으로 나온 결과라 다소 차이가 있는 것으로 보였다.
 > ![Image](https://github.com/user-attachments/assets/d4a1f11d-4d6a-44ae-b911-831548e7d0f7)
+> ![Image](https://github.com/user-attachments/assets/085e4da8-9fdd-4efd-a2bf-20fda6e3fd86)
 
 ### 5.5 서비스위한 동 단위로의 범위 축소 :scissors:
+* 분석 결과를 서비스로 연결시키기에는 **자치구**는 너무 광범위하다고 느껴 **법정동**으로 범위를 축고 시켜 보았다.
 #### (1) 성동구에서 면적 대비 월세가 가장 저렴한 법정동 :money_with_wings:
 > ![Image](https://github.com/user-attachments/assets/b92d9724-6052-43cb-9f5c-ccc64f52fc09)
 
