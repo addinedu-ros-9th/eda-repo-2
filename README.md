@@ -1,5 +1,7 @@
 # eda-repo-2 : 서울시내 아이를 키우기 가장 좋은 자치구 추천 서비스 (TEAM : I.GU)
 
+> #### 기간 2025.03.24~2025.03.28
+
 ## Contents
 1. Introduction
 2. Responsibility
