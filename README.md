@@ -82,50 +82,92 @@
 
 #### (1) 주소 테이블
 * 동 테이블과 도로 테이블이 구 테이블의 id를 참조
+> ![Image](https://github.com/user-attachments/assets/dfbdc563-d942-4a15-a3cf-864b2936d50d)
 
 #### (2) 교육 지표 테이블
 * 구 테이블의 id 참조
+> ![Image](https://github.com/user-attachments/assets/03400fae-51e0-4445-9bbe-8af7be93c873)
 
 #### (3) 안전 지표 테이블
 * 구 테이블의 id 참조
+> ![Image](https://github.com/user-attachments/assets/f81fc0f1-47c6-4cd8-9793-2d0907ee11bf)
 
 #### (4)공공시설 지표 테이블
 * 구 테이블의 id 참조
 * 병원 테이블은 동 테이블과 도로 테이블의 id 참조
+> ![Image](https://github.com/user-attachments/assets/ae8af4cb-a086-4236-a84d-ae67e03fcaed)
 
 #### (5) 서비스 테이블
 * 구와 동의 순위를 매기기 위한 테이블
 * 구, 동 테이블의 id를 참조
-
+> ![Image](https://github.com/user-attachments/assets/30b9e55e-ea41-4bfd-9ac5-4ad311c9b582)
 
 ## 5. Exploratory Data Analysis (EDA)
 
 ### 5.1 교육
 #### (1) 자치구별 학생 수 대비 학교 수
+> ![Image](https://github.com/user-attachments/assets/2b6efcea-dd46-41fc-9e97-680b1509da10)
+> ![Image](https://github.com/user-attachments/assets/d1a6d542-ef22-4d47-a815-d7fd947b940b)
+
 #### (2) 자치구별 학생 수 대비 입시학원 수
+> ![Image](https://github.com/user-attachments/assets/74edc0ef-f02d-4da2-ba9a-c97ccdde3f1a)
+> ![Image](https://github.com/user-attachments/assets/d2ee94e6-0166-4610-b080-9141ceae46b1)
+
 #### (3) 교육 지표 자치구 순위
+> ![Image](https://github.com/user-attachments/assets/f5753f3e-7435-4904-ba4c-e5f293731441)
+
 
 ### 5.2 안전
 #### (1) 자치구별 면적 대비 범죄 발생 건수
+> ![Image](https://github.com/user-attachments/assets/490b8755-16c0-479b-9c06-5ebcfd06be14)
+
 #### (2) 자치구별 생활인구 대비 교통사고 발생 건수
+> ![Image](https://github.com/user-attachments/assets/2fe32fc3-26ae-4d3a-acb0-8cfa335f37a5)
+
 #### (3) 자치구별 면적 대비 유흥시설 수
+> ![Image](https://github.com/user-attachments/assets/5f227a39-bdba-4c9c-8b18-e3546c6cd010)
+
 #### (4) 안전 지표 자치구 순위
+> ![Image](https://github.com/user-attachments/assets/46f464ff-e6b3-45bd-9698-f3011983a035)
+
 
 ### 5.3 공공시설
-#### (1) 소아과 밀집도
-#### (2) 병원 밀집도 대비 소아과 밀집도
-#### (3) 생활인구 대비 도서관 수
-#### (4) 1인당 공원 면적
-#### (5) 전체 면적 대비 1인당 공원 면적 경향성과 오차
-#### (6) 공공시설 지표 자치구 순위
+#### (1) 총 인구 대비 의료기관 수
+> ![Image](https://github.com/user-attachments/assets/65d23250-3e8a-40c9-acb5-56367b3629e8)
+
+#### (2) 소아과 밀집도
+> ![Image](https://github.com/user-attachments/assets/8b843721-d612-46a4-ae6f-60af957f5b89)
+
+#### (3) 병원 밀집도 대비 소아과 밀집도
+> ![Image](https://github.com/user-attachments/assets/e765d187-1364-4c2d-b1ce-c2fb50b9d0f4)
+
+#### (4) 생활인구 대비 도서관 수
+> ![Image](https://github.com/user-attachments/assets/f13cf296-a154-4933-a7b3-637c5bbc49ed)
+> ![Image](https://github.com/user-attachments/assets/5b304dc1-8bed-40ef-b6e5-2425a591e4d0)
+
+#### (5) 공원 전체 면적
+> ![Image](https://github.com/user-attachments/assets/00656b41-327e-413e-8748-ef95282aed92)
+
+#### (6) 1인당 공원 면적
+> ![Image](https://github.com/user-attachments/assets/1b6af1c3-0509-4ed4-8a25-8f6e8eccab84)
+
+#### (7) 전체 면적 대비 1인당 공원 면적 경향성과 오차
+> ![Image](https://github.com/user-attachments/assets/5a852092-1e3f-4b4a-8b52-b956f60157c7)
+
+#### (8) 공공시설 지표 자치구 순위
+> ![Image](https://github.com/user-attachments/assets/350ea63b-d560-4d52-8237-8048618c156e)
+
 
 ### 5.4 종합 분석 및 시각화
 #### (1) 종합 지표 자치구 순위
+> ![Image](https://github.com/user-attachments/assets/d4a1f11d-4d6a-44ae-b911-831548e7d0f7)
 
 ### 5.5 서비스위한 동 단위로의 범위 축소
 #### (1) 성동구에서 면적 대비 월세가 가장 저렴한 법정동
+> ![Image](https://github.com/user-attachments/assets/b92d9724-6052-43cb-9f5c-ccc64f52fc09)
 
 ## 6. Service
+> ![Image](https://github.com/user-attachments/assets/98654665-c981-446f-81de-ae9c8fe76ac8)
 
 ### 6.1 User Flow Chart
 >![Image](https://github.com/user-attachments/assets/8f8698d7-27dd-4bdf-b4e4-769421f2eba4)
