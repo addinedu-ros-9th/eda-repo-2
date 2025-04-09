@@ -187,9 +187,7 @@
 ### 6.2 :information_desk_person: :movie_camera: 서비스 구동 
 > 서비스 구현 동영상
 
-![Image](https://github.com/user-attachments/assets/016a6740-1c7e-437a-b8e9-42fd6a3eff68)
-
-<img src="https://github.com/user-attachments/assets/016a6740-1c7e-437a-b8e9-42fd6a3eff68 width="600" height="400"/>
+<img src="https://github.com/user-attachments/assets/016a6740-1c7e-437a-b8e9-42fd6a3eff68" width="900" height="600"/>
 
 
 
